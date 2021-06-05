@@ -1,0 +1,131 @@
+*
+{
+    box-sizing: border-box;
+}
+.full-container
+{
+    width: 100%;
+    margin-top: 60px;
+    display: block;
+    margin-left: 20px;
+}
+.sub-header
+{
+    margin-left: -35px;
+    margin-right: 0;
+    padding-right: 0;
+    padding-bottom: 40px;
+    padding-left: 0;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+}
+.sub-header ul
+{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.full-container .sub-header ul li a
+{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+.full-container .sub-header ul li
+{
+    list-style-type: none;
+    margin-left: 10px;
+}
+.full-container .sub-header ul li a:hover
+{
+    text-decoration: underline;
+    color: rgb(219, 15, 15);
+}
+.main-container
+{
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+}
+.main-container *
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.userdesign
+{
+    margin-top: 20px;
+    width: 50%;
+    height: 180px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #c8d6e5;
+}
+.userdesign input[type="text"]
+{
+    width: 200px;
+    height: 20px;
+    border: none;
+}
+.userdesign input[type="submit"]
+{
+    width: 20%;
+    height: 25;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #12DCE7;
+    color: #fff;
+    border: none;
+}
+@media screen and (max-width:600px){
+    .userdesign
+    {
+        width: 75%;
+        height: 130px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        background-color: #c8d6e5;
+    }
+    .userdesign input[type="text"]
+    {
+        width: 90%;
+        height: 20px;
+        border: none;
+    }
+    .userdesign input[type="submit"]
+    {
+        width: 40%;
+        height: 25px;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #12DCE7;
+        color: #fff;
+        border: none;
+    }
+}
+.contest
+{
+    width: 70%;
+    padding-bottom: 50px;
+}
+@media screen and (max-width:600px){
+    .contest
+    {
+        width: 100%;
+    }
+}
+
+.Output
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
