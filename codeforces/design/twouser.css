@@ -1,0 +1,77 @@
+*
+{
+    box-sizing: border-box;
+}
+.tableAndCharts
+{
+    width: 100%;
+}
+.twoUserOutput
+{
+    width: 100%;
+}
+
+.twoUserOutput table
+{
+    width: 70%;
+}
+@media screen and (max-width:600px)
+{
+    .twoUserOutput table
+    {
+        width: 100%;
+    }
+}
+.twoUserOutput table td
+{
+    width: 33.33%;
+}
+
+
+.triedSolvedUnsolved
+{
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*@media screen and (max-width:600px)
+{
+    .triedSolvedUnsolved
+    {
+        width: 300px;
+    }
+}*/
+.twoUserVerdict
+{
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.twoUserSolvedByLabel
+{
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+@media screen and (max-width:600px)
+{
+    .triedSolvedUnsolved
+    {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .twoUserVerdict
+    {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .twoUserSolvedByLabel
+    {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
