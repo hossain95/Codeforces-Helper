@@ -1,11 +1,10 @@
 # codeforces-helper
-site link:: https://hossain95.github.io/codeforces-helper
+site link:: https://hossain95.github.io/competitive-programmer-profile/
 ### Features
-* Up Comming Contest
-* Information about a user
-* Compare between two users
-* Standing of any organization users
-* Standing of any country users
+* Information about a user (codeforces, codechef, atcoder)
+* Compare between two users (codeforces)
+* contest standing of the Organization users (codeforces)
+* contest standing of the Country users (codeforces)
 
 ### Languages and Tools
 * HTML5
@@ -15,4 +14,4 @@ site link:: https://hossain95.github.io/codeforces-helper
 * API
 * Json
 * Ajax
-* Chart.js
+* JQuery
